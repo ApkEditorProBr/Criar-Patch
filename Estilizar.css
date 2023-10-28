@@ -12,6 +12,15 @@
   box-shadow: 0 0 4px #666;
 }
 
+.fundo {
+  width: 344px;
+  border-radius: 10px;
+  height: 91%;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
 #add-btn {
   position: absolute;
   margin-top: -2px;
