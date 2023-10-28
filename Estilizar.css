@@ -1,0 +1,153 @@
+.navbar {
+  background-size: cover;
+  background-image: url(fundo.webp);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-color: #42a5f5;
+  padding: 10px;
+  width: none;
+  height: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 4px #666;
+}
+
+#add-btn {
+  position: absolute;
+  margin-top: -2px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background-color: #111;
+  box-shadow: 0 0 4px #666;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#save-btn {
+  left: 228px;
+  position: absolute;
+  margin-top: -2px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background-color: #111;
+  box-shadow: 0 0 4px #666;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#download-btn {
+  left: 288px;
+  position: absolute;
+  margin-top: -2px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background-color: #111;
+  box-shadow: 0 0 4px #666;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#download-btn::rover {
+}
+
+.file-icon {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.file-list {
+  display: none;
+}
+
+li {
+  margin-left: -40px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+ul {
+}
+
+#save-btn {
+  display: none;
+}
+
+.editor {
+  float: right;
+  background-color: white;
+  box-shadow: 0 0 4px #666;
+  width: 60%;
+  height: 90%;
+  display: flex;
+  border: none;
+  margin: none;
+  padding: 0px;
+  border: none;
+}
+
+
+#vertical_number_line {
+  background-color: white;
+  height: none;
+  padding: 5%;
+  width: none;
+  font-size: 9px;
+  color: black;
+  white-space: pre-line;
+  overflow-y: hidden;
+  margin-right: none;
+  border-right: 1px solid black;
+  position: relative;
+}
+
+#file-content {
+  resize: none;
+  width: calc(100% - 30px);
+  color: black;
+  outline: none;
+  background-color: white;
+  border: none;
+  padding: 9px;
+  font-family: normal;
+  font-size: 9px;
+  scrollbar-width: thin;
+  scrollbar-color: black transparent;
+  overflow-y: auto;
+  height: none;
+  overflow: scroll;
+}
+
+textarea::-webkit-scrollbar {
+  width: 2px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 2px; 
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+textarea {
+float: right;
+}
+
+h1 {
+  font: italic small-caps bold 12px Georgia, serif;
+  text-align: center;
+  color: black;
+}
+
+.eda {
+  word-wrap: break-word;
+  width: 37%;
+  height: 87%;
+  background-color: white;
+  float: center;
+  position: absolute;
+}

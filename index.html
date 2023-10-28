@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="Estilizar.css">
+ <!--Lidar com zip-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+  <!--Meu Js-->
+  <script src="ConfigEditor.js"></script>
+  <!--Linha Numérica Vertical-->
+  <script src="LinhaNumericaVertical.js"></script>
+</head>
+<body>
+  
+  <!-- Barra de navegação -->
+  <div class="navbar">
+  <button id="add-btn" onclick="addFile()">Criar</button>
+  
+  <!--Botão salvar-->
+  <button id="save-btn" onclick="saveContent()">Salvar</button>
+  
+  <!--Botão baixar-->
+  <button id="download-btn" onclick="downloadZIP()" disabled>Baixar</button>
+  </div>
+  
+  <div class="editor">
+    <!--Linha numérica vertical-->
+    <div id="vertical_number_line"></div>
+    <!--Caixa de texto-->
+    <textarea id="file-content" oninput="atualizarConteudo()" onscroll="sincronizarScroll()" disabled></textarea>
+    </div>
+    
+    <aside class="eda">
+  <h1></h1>
+  <!--Estrutura de árvore-->
+  <ul id="file-list"></ul>
+  </aside>
+    
+  
+</body>
+</html>
