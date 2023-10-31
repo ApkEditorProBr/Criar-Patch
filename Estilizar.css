@@ -15,7 +15,7 @@
 .fundo {
   width: 344px;
   border-radius: 10px;
-  height: 91%;
+  height: none;
   justify-content: center;
   align-items: center;
   user-select: none;
