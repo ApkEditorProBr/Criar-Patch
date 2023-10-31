@@ -89,7 +89,7 @@ ul {
   background-color: white;
   box-shadow: 0 0 4px #666;
   width: 60%;
-  height: 510;
+  height: 510px;
   display: flex;
   border: none;
   margin: none;
@@ -125,7 +125,7 @@ ul {
   scrollbar-width: thin;
   scrollbar-color: black transparent;
   overflow-y: auto;
-  height: none;
+  height: 510px;
   overflow: scroll;
 }
 
