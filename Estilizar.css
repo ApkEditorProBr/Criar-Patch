@@ -15,7 +15,7 @@
 .fundo {
   width: 344px;
   border-radius: 10px;
-  height: none;
+  height: 90%;
   justify-content: center;
   align-items: center;
   user-select: none;
@@ -89,7 +89,7 @@ ul {
   background-color: white;
   box-shadow: 0 0 4px #666;
   width: 60%;
-  height: 91%;
+  height: none;
   display: flex;
   border: none;
   margin: none;
